@@ -1,6 +1,6 @@
 import { sign } from 'jsonwebtoken';
 
-import Compare from "../../providers/Bcrypt/compare";
+import Compare from "../../../../providers/Bcrypt/compare";
 import IClientsRepository from "../../repositories/IClientsRepository";
 import jwtConfig from '../../../../config/jwtConfig';
 

@@ -1,5 +1,5 @@
 import IClientsRepository from "../../repositories/IClientsRepository";
-import HashGenerator from '../../providers/Bcrypt/hashGenerator';
+import HashGenerator from '../../../../providers/Bcrypt/hashGenerator';
 import { Clients } from "@prisma/client";
 
 interface IRequest {
